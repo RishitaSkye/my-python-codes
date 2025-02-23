@@ -9,3 +9,4 @@ else:   #Else block will print when there is no exception in try block
     print("This is else block")
 finally:    #It will execute in all the cases
     print("This is finally block")
+    
