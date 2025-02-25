@@ -1,12 +1,13 @@
-class Grandfather:
+# Multilevel Inheritance
+class Grandfather:    #Grandfather
     grandfathername=" "
     def g(self):
         print(self.grandfathername)
-class Father:
+class Father(Grandfather):  #Parent Class
     fathername=" "
     def m(self):
         print(self.fathername)
-class Son(Grandfather, Father):
+class Son(Grandfather, Father):    #Child of Father
     sonname=" "
     def s(self):
         print("Grandfather is: ",self.grandfathername)

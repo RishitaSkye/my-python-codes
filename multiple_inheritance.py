@@ -6,7 +6,7 @@ class Mother:
     mothername=" "
     def m(self):
         print(self.mothername)
-class Son(Father, Mother):
+class Son(Father, Mother):   #child of father and mother class
     sonname=" "
     def s(self):
         print("Father is: ",self.fathername)
