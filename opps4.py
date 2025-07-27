@@ -1,4 +1,4 @@
-'''class Person:
+class Person:
     __name="anonymous"
 
     def __hello(self):
@@ -7,7 +7,7 @@
         self.__hello()
 p1=Person()
 print(p1.welcome())
-'''
+
 
 
 
