@@ -6,11 +6,11 @@ class Student:
      self.marks=marks
      
      print("adding new students in database...")
-s1=Student("Rishita", 96)
+s1=Student("Radha", 96)
 print(s1.name)
 print(s1.marks)
 
-s1=Student("Shubham",98)
+s1=Student("Krishna",98)
 print(s1.name)
 print(s1.marks)
 
